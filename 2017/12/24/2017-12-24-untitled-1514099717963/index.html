@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -87,6 +87,7 @@
 <meta property="og:url" content="https://jhswsj.github.io/2017/12/24/2017-12-24-untitled-1514099717963/index.html">
 <meta property="og:site_name" content="Jacob&#39;s Blog">
 <meta property="og:description" content="1.服务器的安装单位剩余的一台ThinkServer G980服务器，安装CentOS 7系统，因为桌面我习惯用的是Ubuntu的系统，所以为了折腾，在服务器上安装 CentOS 7,因为系统之前安装过 Windowserver 2012，所以Raid之类的没尝试，就跟普通的装机一样，把系统装起来了 1.1.开启ssh服务查看是否安装了相关软件1$ rpm -qa | grep -E &amp;quot;">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2017-12-29T04:04:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="折腾服务器">
@@ -106,7 +107,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -147,7 +148,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -195,7 +196,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            首页
           </a>
         </li>
       
@@ -205,7 +206,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            Über
+            关于
           </a>
         </li>
       
@@ -215,7 +216,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -225,7 +226,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
             
-            Sitemap
+            站点地图
           </a>
         </li>
       
@@ -238,7 +239,7 @@
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
-            Suche
+            搜索
           </a>
         </li>
       
@@ -258,7 +259,7 @@
     </span>
     <div class="local-search-input-wrapper">
       <input autocomplete="off"
-             placeholder="Searching..." spellcheck="false"
+             placeholder="搜索..." spellcheck="false"
              type="text" id="local-search-input">
     </div>
   </div>
@@ -301,7 +302,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jacob Chow">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/uploads/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -323,9 +324,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-24T15:15:17+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-24T15:15:17+08:00">
                 2017-12-24
               </time>
             
@@ -400,21 +401,21 @@
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
   <div>Donate comment here</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>Donate</span>
+    <span>打赏</span>
   </button>
   <div id="QR" style="display: none;">
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Jacob Chow WeChat Pay"/>
-        <p>WeChat Pay</p>
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Jacob Chow 微信支付"/>
+        <p>微信支付</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="Jacob Chow Alipay"/>
-        <p>Alipay</p>
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Jacob Chow 支付宝"/>
+        <p>支付宝</p>
       </div>
     
 
@@ -521,10 +522,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            站点概览
           </li>
         </ul>
       
@@ -532,6 +533,10 @@
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="Jacob Chow" />
             
               <p class="site-author-name" itemprop="name">Jacob Chow</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -545,7 +550,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">19</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -556,7 +561,7 @@
               <div class="site-state-item site-state-categories">
                 
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">Kategorien</span>
+                  <span class="site-state-item-name">分类</span>
                 
               </div>
             
@@ -642,7 +647,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -650,7 +655,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
 
 
 
