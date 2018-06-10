@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test3]]></title>
+    <url>%2F2018%2F06%2F10%2Ftest3%2F</url>
+    <content type="text"><![CDATA[1$ ls]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[hexo deploy 发布文章时github用户名报错]]></title>
     <url>%2F2018%2F06%2F10%2Fhexo-deploy-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%97%B6github%E7%94%A8%E6%88%B7%E5%90%8D%E6%8A%A5%E9%94%99%2F</url>
     <content type="text"><![CDATA[因为不懂html，博主纠结了好长时间到底用什么博客来发布文章，想过blogspot.wordpress。由于研究hexo时间还比较长，对这个略擅长些。另外一个问题时比较喜欢使用command line和vim来编辑文章，所以想象还是用免费的github发布文章更适合 ###今天出现在使用的时候出现这样一个问题，提交 1$ hexo d 的时候发现，提交的地址和账号不一样，下面是解决方法 1.系统macos.2.cmd+space键.3.输入keychain access,选择login+左下方的password,搜索github,找到相应的记录，删除就好了。]]></content>
