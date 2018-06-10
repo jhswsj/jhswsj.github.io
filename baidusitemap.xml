@@ -4,6 +4,24 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/06/10/hexo-deploy-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%97%B6github%E7%94%A8%E6%88%B7%E5%90%8D%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2018-06-10T07:03:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo deploy 发布文章时github用户名报错</title>
+        <pubTime>2018-06-10T06:55:43.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="日记" url="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/03/09/2018-03-09-test2/</loc>
     <lastmod>2018-03-09T08:36:02.000Z</lastmod>
     <data>
