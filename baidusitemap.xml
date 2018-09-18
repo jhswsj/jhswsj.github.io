@@ -4,8 +4,23 @@
 
     
   <url>
+    <loc>https://jhswsj.github.io/2018/09/18/test/</loc>
+    <lastmod>2018-09-18T02:46:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2018-09-18T02:46:46.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://jhswsj.github.io/2018/08/10/%E4%B8%83%E5%A4%95/</loc>
-    <lastmod>2018-08-10T07:35:56.000Z</lastmod>
+    <lastmod>2018-08-10T07:42:12.000Z</lastmod>
     <data>
         <display>
         <title>七夕</title>
@@ -34,24 +49,6 @@
 
     
   <url>
-    <loc>https://jhswsj.github.io/2018/06/10/test3/</loc>
-    <lastmod>2018-06-10T07:34:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>test3</title>
-        <pubTime>2018-06-10T07:33:00.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="test" url="https://jhswsj.github.io/categories/test/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://jhswsj.github.io/2018/06/10/hexo-deploy-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E6%97%B6github%E7%94%A8%E6%88%B7%E5%90%8D%E6%8A%A5%E9%94%99/</loc>
     <lastmod>2018-06-10T07:32:10.000Z</lastmod>
     <data>
@@ -64,21 +61,6 @@
              
               <breadCrumb title="日记" url="https://jhswsj.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://jhswsj.github.io/2018/03/09/2018-03-09-test2/</loc>
-    <lastmod>2018-03-09T08:36:02.000Z</lastmod>
-    <data>
-        <display>
-        <title>test2</title>
-        <pubTime>2018-03-09T08:36:02.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>

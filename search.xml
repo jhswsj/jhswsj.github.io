@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2018%2F09%2F18%2Ftest%2F</url>
+    <content type="text"><![CDATA[测试一下ipfs]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[七夕]]></title>
     <url>%2F2018%2F08%2F10%2F%E4%B8%83%E5%A4%95%2F</url>
-    <content type="text"><![CDATA[马上就要到七夕节了，好长时间没有写过文章，今天小记一篇]]></content>
+    <content type="text"><![CDATA[马上就要到七夕节了，好长时间没有写过文章，今天小记一篇。 2018年是个注定被历史记住的年份，2018年，3月11日人大修改宪法、内涵段子被关]]></content>
   </entry>
   <entry>
     <title><![CDATA[写点什么教程呢？]]></title>
     <url>%2F2018%2F06%2F10%2F%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88%E6%95%99%E7%A8%8B%E5%91%A2%EF%BC%9F%2F</url>
     <content type="text"><![CDATA[void main(){ ls hell world } whereis aria2]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[test3]]></title>
-    <url>%2F2018%2F06%2F10%2Ftest3%2F</url>
-    <content type="text"><![CDATA[1$ ls]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
   </entry>
   <entry>
     <title><![CDATA[hexo deploy 发布文章时github用户名报错]]></title>
@@ -25,11 +22,6 @@
       <categories>
         <category>日记</category>
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[test2]]></title>
-    <url>%2F2018%2F03%2F09%2F2018-03-09-test2%2F</url>
-    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[Linux系统安装kali linux软件包]]></title>
